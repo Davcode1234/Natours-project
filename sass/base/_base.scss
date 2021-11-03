@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+// to określa czym jest 1 rem (root font-size) więc nie idzie do typography
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
