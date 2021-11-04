@@ -50,3 +50,21 @@ body {
     text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
   }
 }
+
+.overview-section__text {
+  width: 40vw;
+  &--heading {
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+  }
+
+  &--paragraph {
+    font-size: $default-font-size;
+
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
+}

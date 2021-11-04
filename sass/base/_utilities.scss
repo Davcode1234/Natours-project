@@ -2,6 +2,23 @@
   text-align: center;
 }
 
-.u-margin-bottom-8 {
+.u-margin-bottom-big {
   margin-bottom: 8rem;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem;
+}
+
+--link {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: $color-primary-dark;
+  border-bottom: 1px solid $color-primary-dark;
+
+  &:hover {
+    background-color: $color-primary;
+    color: #fff;
+    transform: translateX(10px);
+  }
 }

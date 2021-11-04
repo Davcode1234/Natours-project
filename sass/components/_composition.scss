@@ -1,0 +1,9 @@
+.composition {
+  display: flex;
+
+  justify-content: flex-start;
+
+  &__photo {
+    width: 10vw;
+  }
+}
