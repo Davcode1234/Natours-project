@@ -1,9 +1,24 @@
 .composition {
   display: flex;
-
-  justify-content: flex-start;
+  position: relative;
+  justify-content: space-around;
 
   &__photo {
-    width: 10vw;
+    width: 15vw;
+    position: absolute;
+
+    &--p1 {
+      top: -5rem;
+      left: -20rem;
+    }
+
+    &--p2 {
+      top: 1rem;
+    }
+
+    &--p3 {
+      top: 10rem;
+      left: -10rem;
+    }
   }
 }

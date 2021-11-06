@@ -44,7 +44,7 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: #777;
-  padding: 3rem; }
+  padding: 3.6rem; }
 
 .heading-primary {
   color: #fff;
@@ -80,7 +80,7 @@ body {
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .overview-section__text {
-  width: 40vw; }
+  width: 25vw; }
   .overview-section__text--heading {
     font-size: 1.6rem;
     font-weight: 700;
@@ -114,12 +114,13 @@ body {
   width: 100%;
   background-color: #f7f7f7;
   margin-top: -20vh;
-  padding: 25rem 7.5rem; }
+  padding: 25rem 0; }
 
 .overview-section {
-  position: relative;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-around; }
+  .overview-section__image {
+    width: 25vw; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -183,9 +184,20 @@ body {
 
 .composition {
   display: flex;
-  justify-content: flex-start; }
+  position: relative;
+  justify-content: space-around;
+  padding: 2rem; }
   .composition__photo {
-    width: 10vw; }
+    width: 15vw;
+    position: absolute; }
+    .composition__photo--p1 {
+      top: -5rem;
+      left: -20rem; }
+    .composition__photo--p2 {
+      top: 1rem; }
+    .composition__photo--p3 {
+      top: 10rem;
+      left: -10rem; }
 
 .header {
   height: 95vh;
