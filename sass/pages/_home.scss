@@ -7,7 +7,7 @@
 
 .overview-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 
   &__image {
     width: 25vw;

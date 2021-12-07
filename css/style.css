@@ -80,7 +80,8 @@ body {
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .overview-section__text {
-  width: 25vw; }
+  width: 25vw;
+  margin-right: auto; }
   .overview-section__text--heading {
     font-size: 1.6rem;
     font-weight: 700;
@@ -118,7 +119,7 @@ body {
 
 .overview-section {
   display: flex;
-  justify-content: space-around; }
+  justify-content: flex-end; }
   .overview-section__image {
     width: 25vw; }
 
@@ -185,8 +186,7 @@ body {
 .composition {
   display: flex;
   position: relative;
-  justify-content: space-around;
-  padding: 2rem; }
+  justify-content: space-around; }
   .composition__photo {
     width: 15vw;
     position: absolute; }
